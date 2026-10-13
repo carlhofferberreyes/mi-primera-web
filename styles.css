@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+.descr {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+.lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+.lista a {
+    text-decoration: none;
+    background-color: #007Bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #0056b3;
+    transition: background 0.3s;
+}
+.lista a:hover{
+    background-color: #0056b3;
+}
+body {
+    background-color: cornsilk;
+}
+
